@@ -21,9 +21,14 @@
     "astro-icon": "^0.8.1",
     "astro-navbar": "^2.3.0",
     "astro-seo": "^0.8.0",
+    "autoprefixer": "^10.4.19",
     "p5": "^1.9.2",
+    "postcss": "^8.4.38",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "reagraph": "^4.16.1",
     "sharp": "^0.33.0",
+    "tailwindcss": "^3.4.3",
     "three": "^0.163.0",
     "zdog": "^1.1.3"
   }
