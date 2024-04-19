@@ -7,41 +7,35 @@ import PricingCard from "@components/pricing.astro";
 const pricing = [
   {
     name: "Personal",
-    price: "Free",
+    price: "$20 / month",
     popular: false,
     features: [
-      "Lifetime free",
-      "Up to 3 users",
-      "Unlimited Pages",
-      "Astro Sub domain",
-      "Basic Integrations",
-      "Community Support",
+      "5000 requests / month",
+
     ],
     button: {
       text: "Get Started",
-      link: "/",
+      link: "https://athena-two-mu.vercel.app/",
     },
   },
   {
     name: "Startup",
     price: {
-      monthly: "$19",
+      monthly: "$100 / month",
       annual: "$16",
       discount: "10%",
       original: "$24",
     },
     popular: true,
     features: [
-      "All Free Features",
-      "Up to 20 users",
-      "20 Custom domains",
-      "Unlimited Collaborators",
-      "Advanced Integrations",
-      "Priority Support",
+      "40,000 requests / month",
+      "24/7 Production Support",
+      "Multiple LLM support",
+
     ],
     button: {
       text: "Get Started",
-      link: "#",
+      link: "https://athena-two-mu.vercel.app/",
     },
   },
   {
@@ -49,12 +43,11 @@ const pricing = [
     price: "Custom",
     popular: false,
     features: [
-      "All Pro Features",
-      "Unlimited Custom domains",
-      "99.99% Uptime SLA",
-      "SAML & SSO Integration",
-      "Dedicated Account Manager",
-      "24/7 Phone Support",
+      "Unlimited Requests",
+      "Dynamic Pricing",
+      "24/7 Production Support",
+      "Multiple LLM support",
+      "Customer API",
     ],
     button: {
       text: "Contact us",
@@ -69,7 +62,7 @@ const pricing = [
     <Sectionhead>
       <Fragment slot="title">Pricing</Fragment>
       <Fragment slot="desc">
-        Simple & Predictable pricing. No Surprises.
+        Lifetime pricing, so lock in your price as we're rolling out tons of new features soon!
       </Fragment>
     </Sectionhead>
 
